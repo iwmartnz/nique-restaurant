@@ -1,7 +1,9 @@
 import React from "react";
+import Image from "next/image";
+
+import { Heading, SubHeading } from "@/components/Heading";
 import Logo from "@/components/Logo";
 import { classes } from "@/lib/data";
-import { Heading, SubHeading } from "../../components/Heading";
 
 const ClassesPage = () => {
   return (
@@ -18,9 +20,10 @@ const ClassesPage = () => {
               {classItem.category.replace(" ", "\n")}
             </SubHeading>
             <p className=" text-brand-white/50">{classItem.date}</p>
-            <img
+            <Image
               src={classItem.image}
               alt=""
+              fill
               className="w-full -z-10 absolute h-full object-cover"
             />
           </li>
