@@ -34,6 +34,7 @@ const RestaurantPage = () => {
       <ul className="flex flex-col relative min-h-screen w-full lg:overflow-x-scroll lg:flex-row">
         {images.map((image) => (
           <Image
+            key={image.id}
             src={image.src}
             alt=""
             priority
