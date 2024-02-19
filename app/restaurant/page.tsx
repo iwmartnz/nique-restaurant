@@ -2,13 +2,13 @@ import Image from "next/image";
 
 import { Heading, SubHeading } from "@/components/Heading";
 import Logo from "@/components/Logo";
-import bg1 from "@/public/restaurantbg1.png";
-import bg2 from "@/public/restaurantbg2.png";
-import bg3 from "@/public/restaurantbg3.png";
-import bg4 from "@/public/bgContactPage.png";
-import bg5 from "@/public/bgMenuPage.png";
-import bg6 from "@/public/restaurantbg4.png";
-import bg7 from "@/public/bgHomePage.png";
+import bg1 from "../../public/restaurantbg1.png";
+import bg2 from "../../public/restaurantbg2.png";
+import bg3 from "../../public/restaurantbg3.png";
+import bg4 from "../../public/bgContactPage.png";
+import bg5 from "../../public/bgMenuPage.png";
+import bg6 from "../../public/restaurantbg4.png";
+import bg7 from "../../public/bgHomePage.png";
 
 const images = [
   { id: 1, src: bg1 },
